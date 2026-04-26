@@ -1,4 +1,28 @@
-# eml-explore
+# eml-explore — ARCHIVED
+
+> **🗄  This package is archived as of 2026-04-25 (E-129 consolidation).**
+>
+> The functionality has been folded into the main `monogate` package
+> as of `monogate 2.4.0+`. New users should install:
+>
+> ```bash
+> pip install monogate[cli]
+> ```
+>
+> The CLI is registered as `monogate-explore` (canonical) AND
+> `eml-explore` (compatibility alias) — your existing
+> `eml-explore ...` shell invocations will keep working unchanged
+> after the migration.
+>
+> The standalone `eml-explore` PyPI / GitHub package is **frozen at
+> 0.1.1** and will receive no further updates.
+>
+> See [monogate's CHANGELOG entry for 2.4.0](https://github.com/almaguer1986/monogate/blob/master/python/CHANGELOG.md#240--2026-04-25--universality-witness--cli--jupyter-folded-in)
+> for details.
+
+---
+
+# eml-explore (historical)
 
 Cross-domain explorer CLI for the EML substrate. Composes
 `eml-cost`, `eml-rewrite`, `eml-discover`, `eml-graph`, and
